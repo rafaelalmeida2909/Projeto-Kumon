@@ -1,0 +1,14 @@
+{
+    "Users": [
+        {
+            "_nome": "rafael de almeida menezes",
+            "_email": "rafaelalmeida2909@gmail.com",
+            "_senha": "123456"
+        },
+        {
+            "_nome": "gabriela de almeida menezes",
+            "_email": "gabimenezes98@hotmail.com",
+            "_senha": "654321"
+        }
+    ]
+}
