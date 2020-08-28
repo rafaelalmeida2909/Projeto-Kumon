@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" href="cadastro.css">
+        <title>Cadastro</title>
+    </head>
+
+    <body>
+		<div id="cabecalho">
+			<img id="logo" src="../_imagens/logo.jpg">
+			<label id="user">USER</label>
+			<img id="logo_user" src="../_imagens/person.png">
+		</div>
+		<div id="form">
+			<h2>Cadastro</h2>
+			<hr>
+			<form method="POST">
+				<table>
+					<tr>
+						<td>
+							<label class="form">Nome:</label><br>
+							<input name="name" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="form">Email:</label><br>
+							<input name="email" type="email">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="form">Senha:</label><br>
+							<input name="password" type="password">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="form">Confirme sua senha:</label><br>
+							<input name="confpassword" type="password">
+						</td>
+					</tr>
+				</table>
+				<input id="botaocadastro" type="submit" value="Cadastrar">
+			</form>
+		</div>
+	</body>
+
+</html>
