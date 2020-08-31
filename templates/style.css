@@ -91,3 +91,33 @@ p {
     margin-top: 30px;
     margin-left: 100px;
 }
+
+.quadrado {
+    border: 1px solid black;
+    width: 400px;
+}
+#mat {
+    float: middle;
+}
+#pot {
+    float:left;
+    margin-left: 150px;
+}
+#ing {
+    float: right;
+    margin-right:150px;
+}
+.link {
+    text-decoration: none;
+}
+#container {
+    text-align: center;
+    margin-top: 60px;
+}
+h1 {
+    font-size: 40px;
+    margin-top:50px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    color: #0099CC;
+}
