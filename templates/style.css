@@ -98,14 +98,17 @@ p {
 }
 #mat {
     float: middle;
+    border-radius: 20px;
 }
 #pot {
     float:left;
     margin-left: 150px;
+    border-radius: 20px;
 }
 #ing {
     float: right;
     margin-right:150px;
+    border-radius: 20px;
 }
 .link {
     text-decoration: none;
@@ -120,4 +123,19 @@ h1 {
     text-align: center;
     font-family: Arial,sans-serif;
     color: #0099CC;
+}
+small {
+    margin-left:75px;
+}
+
+#botaorecupera {
+    border-color: #066a75;
+    background-color:#066a75;
+    width: 205px;
+    color:white;
+    margin-left: 98px;
+    margin-top: 20px;
+    margin-bottom:130px;
+    padding: 3px;
+    border-radius: 5px;
 }
