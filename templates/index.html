@@ -4,22 +4,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Kumon Passaré</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/png" href="../_imagens/favicon.png"/>
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+		<link rel="icon" type="image/png" href="{{ url_for('static',filename='_imagens/favicon.png') }}"/>
+		<style>#body {
+			background-image:url("static/_imagens/educ.jpg");
+			background-position: center;
+    		background-size: 100%;
+   			background-position-y: 50px;
+		}	
+		</style>
 	</head>
 
 	<body id="body">
 		<div id="cabecalho">
-			<img id="logo" src="../_imagens/logo.jpg">
-			<label id="user">USER</label>
-			<img id="logo_user" src="../_imagens/person.png">
+			<img id="logo" src="{{ url_for('static',filename='_imagens/logo.jpg') }}">
+			<a class="link" href="cadastro"><button type="button"  name="Cadastro">Cadastro</button></a>
+			<a class="link" href="login"><button type="button" name="Login">Login</button></a>
 		</div>
 		<h1>Estoque<br>Kumon Passaré</h1>
-		<div id="container">
-			<div><a class="link" href=""><img id="pot" src="../_imagens/português.png"></a></div>
-			<div><a class="link" href=""><img id="ing" src="../_imagens/inglês.png"></a></div>
-			<div><a class="link" href=""><img id="mat" src="../_imagens/matemática.png"></a></div>
-		</div>
 	</body>
 
 </html>

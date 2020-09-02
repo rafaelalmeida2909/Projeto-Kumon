@@ -10,16 +10,21 @@ body {
     height: 100px;
     margin-right: 62%;
 }
+#logoini {
+    height: 100px;
+    margin-right: 57%;
+}
 
 #logo_user {
     height: 50px;
-    margin-bottom: 25px;
+    vertical-align: 25px;
+    margin-left: 20px;
 }
 
 #user {
     vertical-align: 45px;
     margin-right: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 h2 {
@@ -140,9 +145,20 @@ small {
     border-radius: 5px;
 }
 
-#body {
-    background-image:url(../_imagens/educ.jpg);
-    background-position: center;
-    background-size: 100%;
-    background-position-y: 50px;
+button {
+    border-color: #066a75;
+    background-color:#066a75;
+    width: 100px;
+    color:white;
+    margin-top: 0px;
+    padding: 3px;
+    border-radius: 5px;
+    vertical-align: 45px;
+}
+
+#logout {
+    text-decoration: none;
+    margin-right: 60px;
+    margin-top: 0px;
+    float: right;
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Home | Kumon</title>
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+		<link rel="icon" type="image/png" href="{{ url_for('static',filename='_imagens/favicon.png') }}"/>
+	</head>
+
+	<body id="body">
+		<div id="cabecalho">
+			<img id="logoini" src="{{ url_for('static',filename='_imagens/logo.jpg') }}">
+			<a class="link" href="index.html"><button type="button"  name="logout">logout</button></a>
+			<img id="logo_user" src="{{ url_for('static',filename='_imagens/person.png') }}">
+			<label id="user">USER</label>
+		</div>
+		<h1>Estoque<br>Kumon Passaré</h1>
+		<div id="container">
+			<div><a class="link" href=""><img id="pot" src="{{ url_for('static',filename='_imagens/português.png') }}"></a></div>
+			<div><a class="link" href=""><img id="ing" src="{{ url_for('static',filename='_imagens/inglês.png') }}"></a></div>
+			<div><a class="link" href=""><img id="mat" src="{{ url_for('static',filename='_imagens/matemática.png') }}"></a></div>
+		</div>
+	</body>
+
+</html>

@@ -3,14 +3,16 @@
 
     <head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/png" href="../_imagens/favicon.png"/>
-        <title>Cadastro</title>
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+		<link rel="icon" type="image/png" href="{{ url_for('static',filename='_imagens/favicon.png') }}"/>
+        <title>Cadastro | Kumon</title>
     </head>
 
     <body>
 		<div id="cabecalho">
-			<img id="logo" src="../_imagens/logo.jpg">
+			<a href="index">
+			<img id="logo" src="{{ url_for('static',filename='_imagens/logo.jpg') }}">
+			</a>
 		</div>
 		<div id="form">
 			<h2>Cadastro</h2>

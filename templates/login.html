@@ -3,14 +3,16 @@
 
     <head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/png" href="../_imagens/favicon.png"/>
-		<title>Login</title>
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+		<link rel="icon" type="image/png" href="{{ url_for('static',filename='_imagens/favicon.png') }}"/>
+		<title>Login | Kumon</title>
     </head>
 
     <body>
 		<div id="cabecalho">
-			<img id="logo" src="../_imagens/logo.jpg">
+			<a href="index">
+			<img id="logo" src="{{ url_for('static',filename='_imagens/logo.jpg') }}">
+			</a>
 		</div>
 		<div id="form">
 			<h2>Login</h2>
@@ -31,9 +33,9 @@
 					</tr>
 				</table>
 				<input id="botaologin" type="submit" value="Entrar">
-				<a id="esqueci" href="recuperacao.html">Esqueceu a senha?</a><br>
+				<a id="esqueci" href="recuperação">Esqueceu a senha?</a><br>
 				<div id="cadastro">
-					<p>Não tem cadastro? <a href="cadastro.html">Cadastrar-se</a></p>
+					<p>Não tem cadastro? <a href="cadastro">Cadastrar-se</a></p>
 				</div>
 			</form>
 		</div>

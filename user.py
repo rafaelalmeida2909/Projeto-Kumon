@@ -108,6 +108,7 @@ class User():
             try:
                 with open(path.join(".", "models", "Cadastrados.json"), "w") as js:
                     js.write(dados)
+                    return True
             except FileNotFoundError:
                 print("Arquivo 'Cadastrados.json' não encontrado!")
         except FileNotFoundError:
@@ -125,7 +126,7 @@ class User():
         server.login("recuperasenhakumon@gmail.com", "kumon32891044")
         server.send_message(msg)
         server.quit()
-        return f"Senha enviada para o email {email}"
+        return True
 
     def recuperarPass(self, email):
         # Método para recuperar a senha a partir do email
@@ -152,7 +153,7 @@ class User():
                             self.nome = dicts["_nome"]
                             self.email = dicts["_email"]
                             self.log = True
-                            return
+                            return True
                     print("Email ou senha inválidos!")
             except FileNotFoundError:
                 print("Arquivo 'Cadastrados.json' não encontrado!")
