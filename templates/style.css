@@ -118,11 +118,11 @@ p {
     margin-top: 60px;
 }
 h1 {
-    font-size: 40px;
-    margin-top:50px;
+    font-size: 60px;
+    margin-top:30px;
     text-align: center;
-    font-family: Arial,sans-serif;
-    color: #0099CC;
+    font-family: Cambria;
+    color: #066a75;
 }
 small {
     margin-left:75px;
@@ -138,4 +138,11 @@ small {
     margin-bottom:130px;
     padding: 3px;
     border-radius: 5px;
+}
+
+#body {
+    background-image:url(../_imagens/educ.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-position-y: 50px;
 }
