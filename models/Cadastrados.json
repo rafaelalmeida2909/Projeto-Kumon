@@ -13,7 +13,12 @@
         {
             "_nome": "davi de almeida",
             "_email": "davidealmeidacarreiro@gmail.com",
-            "_senha": "123456"
+            "_senha": "12345"
+        },
+        {
+            "_nome": "teste",
+            "_email": "fawfwaf@gmail.com",
+            "_senha": "12345"
         }
     ]
 }

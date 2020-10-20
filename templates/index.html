@@ -6,7 +6,8 @@
 		<title>Kumon Passaré</title>
 		<link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
 		<link rel="icon" type="image/png" href="{{ url_for('static',filename='_imagens/favicon.png') }}"/>
-		<style>#body {
+		<style>
+		#body {
 			background-image:url("static/_imagens/educ.jpg");
 			background-position: center;
     		background-size: 100%;
@@ -23,5 +24,17 @@
 		</div>
 		<h1>Estoque<br>Kumon Passaré</h1>
 	</body>
+
+	<script>
+
+		document.addEventListener('DOMContentLoaded', function() {
+		
+			var url = 'http://127.0.0.1:5001/GUI-is-still-open'; 
+			fetch(url, { mode: 'no-cors'});
+			setInterval(function(){ fetch(url, { mode: 'no-cors'});}, 5000)();
+		
+		});
+		
+		</script>
 
 </html>
